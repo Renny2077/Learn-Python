@@ -1,0 +1,9 @@
+a=input("Enter the value of a:")
+b=input("Enter the value of b:")
+print("a="+a)
+print("b="+b)
+temp = a #a temporary variable stores the value of a
+a=b      #a takes the value of b
+b = temp #b takes the value of the temp variable
+print("a="+a)
+print("b="+b)
